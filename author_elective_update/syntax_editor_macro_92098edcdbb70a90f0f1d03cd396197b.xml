@@ -44,7 +44,7 @@ InstanceScanGetEncodedQueryToPreventUselessChecks();</text></syntax_editor_macro
         <update_guid_history>9a098edca1b70a90073adb877c7a7e7c:-1957664187</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="InstanceScanGetEncodedQueryToPreventUsel">a3198edcdbb70a90f0f1d03cd39619d7</sys_audit_delete>
+        <sys_audit_delete display_value="">a3198edcdbb70a90f0f1d03cd39619d7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 19:00:42</sys_created_on>

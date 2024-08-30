@@ -44,7 +44,7 @@ ConfigurationItemServiceNowAppInsertOrUpdateLocalApps();</text></syntax_editor_m
         <update_guid_history>cf9450d7a3224a50b7a58ac741de038c:-1130786353</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ConfigurationItemServiceNowAppInsertOrUp">f71e2e2bdb87c210f0f1d03cd39619a5</sys_audit_delete>
+        <sys_audit_delete display_value="">f71e2e2bdb87c210f0f1d03cd39619a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-03 17:15:32</sys_created_on>

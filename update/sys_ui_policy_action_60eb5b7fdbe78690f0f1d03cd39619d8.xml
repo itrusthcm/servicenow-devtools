@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>switch</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-07-29 11:45:34</sys_updated_on>
         <table>x_snc_devtools_technical_debt</table>
         <ui_policy display_value="Technical Debt - Switch">bf9b577fdbe78690f0f1d03cd396190f</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=60eb5b7fdbe78690f0f1d03cd39619d8"/>
 </record_update>

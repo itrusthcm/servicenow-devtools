@@ -41,7 +41,7 @@
         <update_guid_history>aefdf5320726c65082a764956a7e9f54:1223097973</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_devtools_cmdb_ci_appl_servicenow.admin">9a580abadb26c650f0f1d03cd3961946</sys_audit_delete>
+        <sys_audit_delete display_value="">9a580abadb26c650f0f1d03cd3961946</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-06 10:03:40</sys_created_on>
