@@ -99,6 +99,37 @@ gs.info('After DeleteAllData(): '+x_snc_devtools.RenderValue(testdata.GetAllData
 		<li>Add the postfix "WORK IN PROGRESS" to the application name</li>
 	</ol>
 
+	<p>Teams are well-advised to protect version branches after baselining.</p>
+
+	<p>Perform the following steps to protect a branch in GitHub:</p>
+	<ol>
+		<li>Navigate to GitHub.</li>
+		<li>Navigate to the repository.</li>
+		<li>Navigate to "Settings".</li>
+		<li>Navigate to "Branches".</li>
+		<li>Click button "Add rule".</li>
+		<li>Under "Branch name pattern" enter the name of the branch to be protected.</li>
+		<li>Select "Require a pull request before merging".</li>
+		<li>Select "Lock branch".</li>
+		<li>Select "Do not allow bypassing the above settings".</li>
+		<li>Click button "Create".</li>
+	</ol> 
+
+	<p>Perform the following steps to protect a branch in GitLab:</p>
+	<ol>
+		<li>Navigate to GitLab.</li>
+		<li>Navigate to the project.</li>
+		<li>Navigate to "Settings".</li>
+		<li>Navigate to "Repository".</li>
+		<li>Scroll to "Protected branches" and click button "Expand".</li>
+		<li>Click button "Add protected branch".</li>
+		<li>Select "Require a pull request before merging".</li>
+		<li>Select the branch to be protected.</li>
+		<li>Under "Allowed to merge" then under "Roles" select "No one".</li>
+		<li>Under "Allowed to push and merge" then under "Roles" select "No one".</li>
+		<li>Click button "Protect".</li>
+	</ol> 	
+
 	<h3>Shared Applications</h3>
 	<p>A "Shared Application" is an application that is created and developed by a 3rd party, members of the open source community, a different department or organization. The application is hence "shared" by that other entity and imported to your own organization.</p>
 	<p>This requires such shared application to be treated differently than applications that are created and developed by your own organization:</p>
@@ -325,6 +356,26 @@ function DevToolsGetFormatConfig(grRecord)
 	<g2:no_escape>$[docapi.RenderLicense()]</g2:no_escape>
 	
 	<h2>Release Notes</h2>
+
+	<h3>1.103.0 - 2024-10-22</h3>
+	<ol>
+		<li>Added function RecordSetValueJson().</li>
+		<li>Added function UxStyleSetValue().</li>
+		<li>Added function InstallerAPI::UxStyleSetColor().</li>
+		<li>Added function GitHubAPI::ProtectBranchReadOnly().</li>
+		<li>Added function GitLabAPI::ProtectBranchReadOnly().</li>
+		<li>Function AppVersionBaseline() now invokes the function AppVersionBaselineOnFinish() after baselining is complete. Added function AppVersionBaselineOnFinish() to the DevTools extension point.</li>
+		<li>TestAPI now supports up to 15 parameters for a test case.</li>
+		<li>HttpRequest() no longer enforces the "post" http method if a request body is provided.</li>
+		<li>Added steps to protect a branch in GitHub to the manual.</li>
+		<li>Added steps to protect a branch in GitLab to the manual.</li>
+		<li>Added sys_es_latest_script and sys_module to the link directory.</li>
+		<li>Added more patterns to GetEvaluatorErrorExceptionPatterns().</li>
+		<li>Removed the "DevTools" system property category. The "DevTools Options" menu item now opens the sys_properties list view filtered by "DevTools".</li>
+		<li>AppSanity() now moves any sn_pipeline_environment and sn_pipeline_pipeline records into the global scope if the tables exist.</li>
+		<li>AppSanity() now moves any user specific sys_ui_list records into the global scope.</li>
+	</ol>
+
 
 	<h3>1.102.0 - 2024-10-08</h3>
 	<ol>
@@ -2066,13 +2117,13 @@ gs.invalidateCache();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-27 11:17:42</sys_created_on>
         <sys_id>e44fd7541b578450a89720a8ec4bcb8c</sys_id>
-        <sys_mod_count>1763</sys_mod_count>
+        <sys_mod_count>1783</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="DevTools" source="x_snc_devtools">d689f6901bd38450a89720a8ec4bcbfd</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevTools">d689f6901bd38450a89720a8ec4bcbfd</sys_scope>
         <sys_update_name>sys_ui_page_e44fd7541b578450a89720a8ec4bcb8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 13:30:18</sys_updated_on>
+        <sys_updated_on>2024-10-22 12:06:22</sys_updated_on>
     </sys_ui_page>
 </record_update>
